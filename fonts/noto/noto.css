@@ -1,0 +1,5 @@
+/* configura novas fontes externas ou locais */
+@font-face {
+    font-family: 'noto';
+     src: url(./NotoSans-Regular.ttf) format(woff2);/*formatos das fontes para reconhecer na web */
+}

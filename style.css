@@ -1,0 +1,80 @@
+body{
+    font-family: 'noto';
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.cont-additens{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    flex-wrap: wrap;
+}
+
+#input-tarefa, #btn-novatarefa{
+    border:none;
+    font-size: 1rem;
+    outline:none;
+    padding:15px;
+}
+#input-tarefa{
+    width: 20rem;
+    border-radius: 16px;
+}
+#btn-novatarefa{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: .5s;
+}
+#btn-novatarefa:hover{
+    background-color: #06e506;
+}
+#list{
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+}
+
+#list li{
+    list-style-type:none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#list li:hover{
+    background-color: #ffffff4d;
+    transition: .4s;
+    border-radius:1rem;
+    padding-left:1rem;
+}
+#btn-ok{
+    border: none;
+    background-color: #46db46;
+    color: #fff;
+    padding:.3rem .7rem;
+    border-radius:50%;
+    width:50px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    transition:.4s;
+}
+#btn-ok:hover{
+    background-color: #05a605;
+}
