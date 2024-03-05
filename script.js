@@ -22,7 +22,7 @@ function nvTarefa(){
     }
     input.value = ""
 }
-// funçao que valida se existe tarefas na losta de tarefas
+// funçao que valida se existe tarefas na lista de tarefas
 function valiNvTarefa(){
     let valor = JSON.parse(localStorage.getItem(localStorageKey) || "[]")
     let inputValor = document.getElementById("input-tarefa").value
